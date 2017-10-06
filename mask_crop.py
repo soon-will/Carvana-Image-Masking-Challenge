@@ -21,3 +21,4 @@ for img_ids,value in load_list.items():
     io.imsave(os.path.join('train_mask_crop/', '{}'.format(img_ids)+'_mask.jpg'),img_mask)
     #plt.savefig(os.path.join('train_mask_crop/', '{}'.format(img_ids)+'_mask.jpg'))
 
+
