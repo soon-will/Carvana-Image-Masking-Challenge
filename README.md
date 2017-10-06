@@ -5,11 +5,17 @@ kaggle competition
 # input
 
 -- input
+  
   --train 
-    --  .jpg   
-  --test 
-    --  .jpg  
+   
+   --  .jpg   
+ 
+ --test 
+   
+   --  .jpg  
+  
   --train_mask
+    
     -- .jpg
     
     
