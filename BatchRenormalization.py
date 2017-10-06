@@ -6,6 +6,7 @@ from keras.utils.generic_utils import get_custom_objects
 import numpy as np
 
 
+
 def _moments(x, axes, shift=None, keep_dims=False):
     ''' Wrapper over tensorflow backend call '''
     if K.backend() == 'tensorflow':
