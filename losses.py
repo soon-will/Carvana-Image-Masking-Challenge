@@ -112,6 +112,7 @@ def weighted_dice_loss(y_true, y_pred, weight):
     loss = 1. - K.sum(score)
     return loss
 
+
 def weighted_bce_dice_loss(y_true, y_pred):
     y_true = K.cast(y_true, 'float32')
     y_pred = K.cast(y_pred, 'float32')
