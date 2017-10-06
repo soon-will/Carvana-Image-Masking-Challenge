@@ -9,6 +9,7 @@ import pandas as pd
 import pickle
 
 
+
 path = 'input/train/'
 df_train = pd.read_csv('input/train_masks.csv')
 ids_train = df_train['img'].map(lambda s: s.split('_')[0])
